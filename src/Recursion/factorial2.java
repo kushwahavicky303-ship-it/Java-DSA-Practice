@@ -15,9 +15,10 @@ public class factorial2 {
             return 1;
         }
         //recursion relation
-        int smallerAns = fact(N-1);
-        //biggest problem
-        int ans  = N*smallerAns;
-        return ans;
+//        int smallerAns = fact(N-1);
+//        //biggest problem
+//        int ans  = N*smallerAns;
+//        return ans;
+        return N*fact(N-1);
     }
 }
