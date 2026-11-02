@@ -1,4 +1,4 @@
-package SortingAlgorithm;
+package BubbleSort;
 
 public class ascendingBuubleSort {
     public static void main(String args[]){
