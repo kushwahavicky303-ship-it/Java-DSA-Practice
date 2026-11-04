@@ -25,3 +25,6 @@ public class AscendingOrder {
 }
 //min_index represents the index of the smallest element.
 //arr[min_index] represents the value stored at that index.
+//Stable: Equal elements maintain their original order.
+//Unstable: Equal elements may change their original order.
+//In-place: Sorting happens without requiring another input-sized array.
